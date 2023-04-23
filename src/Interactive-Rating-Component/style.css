@@ -1,0 +1,158 @@
+@import url('https://fonts.googleapis.com/css2?family=Overpass:wght@400;700&display=swap');
+
+html,body{
+margin: 0;
+height: 100%;
+}
+body{
+    background-color: #131518;
+    color: #FFFFFF;
+    font-family: 'Overpass', sans-serif;
+    display: grid;
+    place-items: center;
+}
+
+#Ratting-card{
+    background: radial-gradient(98.96% 98.96% at 50% 0%, #232A34 0%, #181E27 100%);
+    display: grid;
+    width: 40vh;
+    height: 40vh;
+    border-radius: 35px;
+}
+
+.star-border{
+    display: grid;
+    height: 40px;
+    width: 40px;
+    background-color: #262E38;
+    border-radius: 50%;
+    place-items: center;
+}
+p{
+    color: #969FAD;
+}
+
+.btn-ratting-number{
+    display: block;
+    height: 40px;
+    width: 40px;
+    background-color: #262E38;
+    border-radius: 50%;
+    border: none;
+    outline:none;
+    cursor: pointer;
+    color: #969FAD;
+}
+.btn-ratting-number-active {
+    display: block;
+    height: 40px;
+    width: 40px;
+    background-color: #FC7614;
+    border-radius: 50%;
+    border: none;
+    outline:none;
+    cursor: pointer;
+    color: #FFFFFF;
+}
+
+.btn-ratting-number:hover{
+    background-color: #7C8798;
+    color: #FFFFFF;
+}
+
+.btn-Submit{
+    width: 35vh;
+    height: 3.5vh;
+    border-radius: 50px;
+    border: none;
+    outline:none;
+    cursor: pointer;
+    background-color: #FC7614;
+    color: #FFFFFF;
+}
+.btn-Submit:hover{
+    background-color: #FFFFFF;
+    color: #FC7614;
+}
+.Ratting-Result-background {
+    display: grid;
+    height: 3vh;
+    width: 20vh;
+    background-color: #262E38;
+    border-radius: 50px;
+    place-items: center;
+    color: #FC7614;
+}
+
+.Ratting-card-parent {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+    }
+    
+.Ratting-card-child-star 
+{ 
+    grid-area: 1 / 1 / 2 / 2;
+    place-self: center;
+  }
+.Ratting-card-child-header { 
+    grid-area: 2 / 1 / 3 / 6; 
+    padding-left: 2.5vh;
+}
+.Ratting-card-child-paragraph { 
+    grid-area: 3 / 1 / 4 / 6;
+    padding-left: 2.5vh;
+    
+}
+.Ratting-card-child-ratting-1 { 
+    grid-area: 4 / 1 / 5 / 2;
+    place-self: center;  
+ }
+.Ratting-card-child-ratting-2 { 
+    grid-area: 4 / 2 / 5 / 3;
+    place-self: center; 
+
+}
+.Ratting-card-child-ratting-3 { 
+    grid-area: 4 / 3 / 5 / 4;
+    place-self: center;  
+
+}
+.Ratting-card-child-ratting-4 {
+     grid-area: 4 / 4 / 5 / 5;
+     place-self: center;
+      
+}
+.Ratting-card-child-ratting-5 { 
+    grid-area: 4 / 5 / 5 / 6;
+    place-self: center;
+
+}
+.Ratting-card-child-submit { 
+    grid-area: 5 / 1 / 6 / 6;
+    place-self: center;
+}
+
+
+.FeedBack-Card-Parent {
+    display: grid;
+    grid-template-columns: 4fr;
+    grid-template-rows: repeat(4, 1fr);
+    }
+    
+.FeedBack-Card-child-image { 
+    grid-area: 1 / 1 / 2 / 2;
+    place-self: center; 
+}
+.FeedBack-Card-child-Ratting { 
+    grid-area: 2 / 1 / 3 / 2;
+    place-self: center; 
+}
+.FeedBack-Card-child-Header { 
+    grid-area: 3 / 1 / 4 / 2;
+    place-self: center; 
+}
+.FeedBack-Card-child-paragraph { 
+    grid-area: 4 / 1 ;
+    place-self: center;
+ }
