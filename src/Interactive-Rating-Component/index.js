@@ -3,7 +3,7 @@ function GetThankYouCard(value){
     return `
     <div class="FeedBack-Card-Parent" id='Ratting-card'>
         <div class="FeedBack-Card-child-image"> 
-            <img src="/src/Interactive-Rating-Component/images/illustration-thank-you.svg" alt="illustration-thank-you">
+            <img src="./images/illustration-thank-you.svg" alt="illustration-thank-you">
         </div>
         <div class="FeedBack-Card-child-Ratting">
             <div class="Ratting-Result-background">
