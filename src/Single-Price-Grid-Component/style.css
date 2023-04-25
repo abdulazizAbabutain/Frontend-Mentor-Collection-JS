@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Overpass:wght@400;700&display=swap');
+html, body {
+    margin: 0;
+    height: 100%;
+    background-color: #F2F2F2 ;
+}
+body{
+    display: grid;
+    place-items: center;
+}
+
+.card {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2,1fr);
+    width: 635px;
+    height: 475px;
+    font-family: 'Overpass', sans-serif;
+}
+
+.card-header {
+    grid-area: 1/1/1/3;
+    background-color: #FFFFFF;
+    padding-left: 30px;
+    padding-top: 40px;
+}
+
+.card-header-Welcome {
+    color: #2AB3B1 ;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.card-header-paragrph-1 {
+    color: #C0DF33;
+}
+
+.card-header-paragrph-2 {
+    color: #9AA7BE;
+    width: 90%;
+}
+.card-subs {
+    background-color: #2AB3B1;
+    padding-left: 30px;
+    color: #FFFFFF;;
+}
+
+.span-1{
+    padding-left: 10px;
+    color: #FFFFFF;
+    opacity: 0.5
+}
+
+
+b {
+    font-size: 32px ;
+    font-weight: bold;
+
+}
+
+.card-subs-paragrph-1 {
+    margin: 10px;
+}
+
+.card-subs-paragrph-2 {
+    font-size: 16px;
+    margin-top: 0;
+}
+
+.btn {
+    width: 250px;
+    height: 50px;
+    background-color: #C0DF33;
+    border: none;
+    border-radius: 5px;
+    color: #FFFFFF;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.card-subs-header{
+    margin-top: 30px;
+}
+.card-artical {
+    background-color: #2AB3B1;
+    opacity: 0.75;
+    color: #FFFFFF ;
+}
+.card-artical-content{
+    padding-left: 30px;
+    margin-top: 30px;
+} 
+.card-artical-content-paragraph{
+    width: 65%;
+    opacity: 0.75;
+}
+.card-artical-content-header {
+    font-size: 18px;
+}
